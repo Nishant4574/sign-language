@@ -1,0 +1,135 @@
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:tensorflow:From C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+WARNING:tensorflow:From C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+WARNING:tensorflow:No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+DEBUG:comtypes:CoInitializeEx(None, 2)
+INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python310\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\comtypes\gen'
+DEBUG:comtypes.client:SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+DEBUG:comtypes.client:CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+DEBUG:comtypes.client:GetBestInterface(<POINTER(IUnknown) ptr=0x17e851f0b40 at 17e839bc940>)
+DEBUG:comtypes.client:Does implement IProvideClassInfo
+DEBUG:comtypes.client:Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x17e851f0b80 at 17e839bd3c0>
+DEBUG:comtypes.client._generate:GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+DEBUG:comtypes.client:Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+DEBUG:comtypes.client:Final result is <POINTER(ISpeechVoice) ptr=0x17e851f0b80 at 17e839bd040>
+DEBUG:comtypes:Release <POINTER(IProvideClassInfo) ptr=0x17e851f0ba0 at 17e839bc8c0>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x17e83626018 at 17e839bc440>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x17e83626070 at 17e839bc1c0>
+DEBUG:comtypes:Release <POINTER(ITypeLib) ptr=0x17ef5e365c0 at 17e839bd3c0>
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x17e851f0b40 at 17e839bc940>
+DEBUG:comtypes.client._events:<POINTER(ISpeechVoice) ptr=0x17e851f0b80 at 17e839bd040> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+DEBUG:comtypes:Release <POINTER(IProvideClassInfo2) ptr=0x17e851f0ba0 at 17e839bc940>
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>: _ISpeechVoiceEvents.VoiceChange not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>: _ISpeechVoiceEvents.Bookmark not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>: _ISpeechVoiceEvents.Word not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>: _ISpeechVoiceEvents.Sentence not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>: _ISpeechVoiceEvents.Phoneme not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>: _ISpeechVoiceEvents.Viseme not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>: _ISpeechVoiceEvents.AudioLevel not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>: _ISpeechVoiceEvents.EnginePrivate not implemented
+DEBUG:comtypes.client._events:Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+DEBUG:comtypes._comobject:1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017E84EB59C0>.AddRef() -> 1
+DEBUG:comtypes:Release <POINTER(IConnectionPointContainer) ptr=0x17e851f0ba8 at 17e839bc3c0>
+DEBUG:comtypes.client:wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x17e851f6530 at 17e839bc3c0>)
+DEBUG:comtypes:Release <POINTER(ISpeechObjectToken) ptr=0x17e851f6530 at 17e839bc3c0>
+DEBUG:comtypes.client:wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x17e851f7990 at 17e839bc3c0>)
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x17e851f7300 at 17e839bc140>
+DEBUG:comtypes.client:wrap_outparam(<POINTER(IDispatch) ptr=0x17e851f7b70 at 17e838e3b40>)
+DEBUG:comtypes.client:GetBestInterface(<POINTER(IDispatch) ptr=0x17e851f7b70 at 17e838e3b40>)
+DEBUG:comtypes.client:Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+DEBUG:comtypes.client:Does NOT implement IProvideClassInfo/IProvideClassInfo2
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x17e83626120 at 17e838e3dc0>
+DEBUG:comtypes.client:Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x17e851f7b70 at 17e838e3cc0>
+DEBUG:comtypes.client._generate:GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+DEBUG:comtypes.client:Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+DEBUG:comtypes.client:Final result is <POINTER(ISpeechObjectToken) ptr=0x17e851f7b70 at 17e838e3dc0>
+DEBUG:comtypes:Release <POINTER(IDispatch) ptr=0x17e851f7b70 at 17e838e3a40>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x17e83626120 at 17e838e3d40>
+DEBUG:comtypes:Release <POINTER(ITypeLib) ptr=0x17ef5e365c0 at 17e838e3cc0>
+DEBUG:comtypes:Release <POINTER(IDispatch) ptr=0x17e851f7b70 at 17e838e3b40>
+DEBUG:comtypes:Release <POINTER(IEnumVARIANT) ptr=0x17e851f7300 at 17e839bc240>
+DEBUG:comtypes:Release <POINTER(ISpeechObjectTokens) ptr=0x17e851f7990 at 17e839bc3c0>
+DEBUG:comtypes:Release <POINTER(ISpeechObjectToken) ptr=0x17e851f7b70 at 17e838e3dc0>
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:tensorflow:From C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+WARNING:tensorflow:From C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+WARNING:tensorflow:No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+DEBUG:comtypes:CoInitializeEx(None, 2)
+INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python310\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\comtypes\gen'
+DEBUG:comtypes.client:SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+DEBUG:comtypes.client:CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+DEBUG:comtypes.client:GetBestInterface(<POINTER(IUnknown) ptr=0x13b67190b40 at 13b668ec940>)
+DEBUG:comtypes.client:Does implement IProvideClassInfo
+DEBUG:comtypes.client:Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x13b67190b80 at 13b668ed3c0>
+DEBUG:comtypes.client._generate:GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+DEBUG:comtypes.client:Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+DEBUG:comtypes.client:Final result is <POINTER(ISpeechVoice) ptr=0x13b67190b80 at 13b668ed040>
+DEBUG:comtypes:Release <POINTER(IProvideClassInfo) ptr=0x13b67190ba0 at 13b668ec8c0>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x13b5136df58 at 13b668ec440>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x13b5136dfb0 at 13b668ec1c0>
+DEBUG:comtypes:Release <POINTER(ITypeLib) ptr=0x13b5c8019d0 at 13b668ed3c0>
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x13b67190b40 at 13b668ec940>
+DEBUG:comtypes.client._events:<POINTER(ISpeechVoice) ptr=0x13b67190b80 at 13b668ed040> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+DEBUG:comtypes:Release <POINTER(IProvideClassInfo2) ptr=0x13b67190ba0 at 13b668ec940>
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>: _ISpeechVoiceEvents.VoiceChange not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>: _ISpeechVoiceEvents.Bookmark not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>: _ISpeechVoiceEvents.Word not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>: _ISpeechVoiceEvents.Sentence not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>: _ISpeechVoiceEvents.Phoneme not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>: _ISpeechVoiceEvents.Viseme not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>: _ISpeechVoiceEvents.AudioLevel not implemented
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>: _ISpeechVoiceEvents.EnginePrivate not implemented
+DEBUG:comtypes.client._events:Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+DEBUG:comtypes._comobject:1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>
+DEBUG:comtypes._comobject:<comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000013B66E19A50>.AddRef() -> 1
+DEBUG:comtypes:Release <POINTER(IConnectionPointContainer) ptr=0x13b67190ba8 at 13b668ec3c0>
+DEBUG:comtypes.client:wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x13b67196600 at 13b668ec3c0>)
+DEBUG:comtypes:Release <POINTER(ISpeechObjectToken) ptr=0x13b67196600 at 13b668ec3c0>
+DEBUG:comtypes.client:wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x13b67198740 at 13b668ec3c0>)
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x13b67199620 at 13b668ec140>
+DEBUG:comtypes.client:wrap_outparam(<POINTER(IDispatch) ptr=0x13b67199700 at 13b66813b40>)
+DEBUG:comtypes.client:GetBestInterface(<POINTER(IDispatch) ptr=0x13b67199700 at 13b66813b40>)
+DEBUG:comtypes.client:Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+DEBUG:comtypes.client:Does NOT implement IProvideClassInfo/IProvideClassInfo2
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x13b5136e060 at 13b66813dc0>
+DEBUG:comtypes.client:Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x13b67199700 at 13b66813cc0>
+DEBUG:comtypes.client._generate:GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+DEBUG:comtypes.client:Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+DEBUG:comtypes.client:Final result is <POINTER(ISpeechObjectToken) ptr=0x13b67199700 at 13b66813dc0>
+DEBUG:comtypes:Release <POINTER(IDispatch) ptr=0x13b67199700 at 13b66813a40>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x13b5136e060 at 13b66813d40>
+DEBUG:comtypes:Release <POINTER(ITypeLib) ptr=0x13b5c8019d0 at 13b66813cc0>
+DEBUG:comtypes:Release <POINTER(IDispatch) ptr=0x13b67199700 at 13b66813b40>
+DEBUG:comtypes:Release <POINTER(IEnumVARIANT) ptr=0x13b67199620 at 13b668ec240>
+DEBUG:comtypes:Release <POINTER(ISpeechObjectTokens) ptr=0x13b67198740 at 13b668ec3c0>
+DEBUG:comtypes:Release <POINTER(ISpeechObjectToken) ptr=0x13b67199700 at 13b66813dc0>
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-367-243
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 18:08:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 18:08:52] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 18:08:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python310\\site-packages\\cv2\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Admin\\Desktop\\Sign-Language-detection-main\\test.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Admin\\Desktop\\Sign-Language-detection-main\\test.py', reloading
+DEBUG:comtypes:Calling CoUninitialize()
+DEBUG:comtypes:CoUninitialize() done.
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+DEBUG:comtypes:Calling CoUninitialize()
+DEBUG:comtypes:CoUninitialize() done.
